@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="107px"
+        android:layout_height="120px"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/week"
+            android:textSize="24px"
+            android:gravity="center"
+            android:text="周一"
+            android:textColor="@color/text_333"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textColor="@color/text_333"
+            android:id="@+id/timer"
+            android:textSize="24px"
+            android:gravity="center"
+            android:text="2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>
